@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FaMobile,FaNodeJs,FaCode,FaFigma} from "react-icons/fa";
 
@@ -14,7 +13,7 @@ const about = () => {
       <h2>About Me</h2>
   <p className=" container my2">
         I am a talented and passionate developer ,
-         working on converting your idea into a clean high-performance real project , using clean code of more than one technology neither in Web nor Mobile and in consideration of the scalability, readability,SEO and maintainability .    </p> 
+         working on converting your idea into a clean high-performance real project , using clean code of more than one technology neither  Web nor Mobile and in consideration of the scalability, readability,SEO and maintainability .    </p> 
 
       <div className="container about__container">  
        <div className="about__content"> 

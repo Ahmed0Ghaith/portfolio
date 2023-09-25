@@ -12,7 +12,10 @@
   transition: var(--transition);
   border-color: var(--color-bg-varaint);
 }
+small{
+margin-bottom: 1rem;
 
+}
 .article_item:hover {
   border-color: var(--hover);
   background: transparent;
@@ -27,11 +30,15 @@
 .article_item h3 {
   margin: 1.2rem 0 2rem;
 }
+.imgheight{
 
+      min-height: 170px;
+}
 .item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 1024px) {

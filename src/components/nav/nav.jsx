@@ -3,8 +3,8 @@ import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { FaInfoCircle } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
-import { BsTools } from "react-icons/bs";
-import { BiSolidContact } from "react-icons/bi";
+import { BsCode } from "react-icons/bs";
+import { BiPhoneCall } from "react-icons/bi";
 import { useState } from "react";
 
 const Nav = () => {
@@ -37,14 +37,14 @@ const Nav = () => {
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <BsTools />
+        <BsCode />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <BiSolidContact />
+        <BiPhoneCall />
       </a>
     </nav>
   );

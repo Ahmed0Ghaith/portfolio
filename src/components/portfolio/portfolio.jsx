@@ -1,55 +1,98 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3i.jpg";
-import IMG4 from "../../assets/portfolio3.png";
-import IMG5 from "../../assets/fintech.jpg";
-import IMG6 from "../../assets/portfolio6.jpg";
+import hr from "../../assets/HR.png";
+import crypto from "../../assets/crypto.png";
+import car from "../../assets/cartp.png";
+import news from "../../assets/newsf.png";
+import khushoo3 from "../../assets/khushoo3.png";
+import shipyfy from "../../assets/shipyfy.png";
+import scanner from "../../assets/scanner.png";
+import pos from "../../assets/POS.png";
+import carweb from "../../assets/carweb.png";
+
 // an array of data
 
 const data = [
   {
     id: 1,
-    image: "https://play-lh.googleusercontent.com/Bm37FCLn0cZ0CxjrXgAF6HJMQZ8hK3a-kjbKPExpPcmvRjoiDtL7wgEE966EZszsDpt6=w480-h960-rw",
+    image: hr,
     title: "HR-App",
     github: "",
     demo: "https://apps.apple.com/us/app/hr-al-seef/id1605339606",
+        caption:"HR App contains 5 roles, manage all employers (Docs- vacations permissions)."
+
   },
   {
     id: 2,
-    image: IMG2,
+    image: scanner,
     title: "Warehouse App",
-    github: "https://github.com/samstickkz",
-    demo: "https://www.tiktok.com/@obong_samjoe/video/7220823810583334150",
+    github: "",
+    demo: "https://play.google.com/store/apps/details?id=com.encore.wareshouse",
+        caption:"warehouse APP by paired wireless scanner you can check Items details, picks , put away, movement , stocktake , locations"
+
   },
+ 
   {
-    id: 3,
-    image: IMG3,
+    id: 4,
+    image: pos,
     title: "Point of sale App ",
     github: "",
     demo: "https://play.google.com/store/apps/details?id=eIS.Sales.App",
-  },
-  {
-    id: 4,
-    image: "https://play-lh.googleusercontent.com/3JulDroPeOQ6vLSCGgyOlGZkLFtH7-8q1nsMo6vYAL9aXG5YJdk0gMCEnLo0Z7RDgQ=w5120-h2880-rw",
-    title: "Shipyfy  App",
-    github: "https://github.com/samstickkz",
-    demo: "https://www.tiktok.com/@obong_samjoe/video/7119517496012524805",
+        caption:"SAAS APP point of sale display products, customers and making orders"
+
+
   },
   {
     id: 5,
-    image: IMG5,
-    title: "Fintech Website",
-    github: "https://github.com/samstickkz/fintech",
-    demo: "https://fintech-by-sam.vercel.app/",
+    image: shipyfy,
+    title: "Shipyfy  App",
+    github: "",
+    demo: "https://play.google.com/store/apps/details?id=com.shipyfy",
+        caption:"Shipping Flutter App-Web & WordPress Blog "
+
   },
   {
     id: 6,
-    image: IMG6,
-    title: "Flight Booking App",
-    github: "https://github.com/samstickkz",
-    demo: "https://www.tiktok.com/@obong_samjoe/video/7181487378157194502",
+    image: car,
+    title: "Car parts App",
+    github: "",
+    demo: "https://play.google.com/store/apps/details?id=com.aboaltaup.twbparts",
+        caption:"e-commerce system has a dedicated dashboard (as an Android app) to control all users, admin roles, notifications, alerts, orders, products, loading from individual products or Excel, and a database control desktop application (CRUD)"
+
+  },
+  {
+    id: 7,
+    image: khushoo3,
+    title: " Khushoo3 App",
+    github: "https://github.com/Ahmed0Ghaith/Khushoo3-Xamarin",
+    demo: "https://github.com/Ahmed0Ghaith/khushoo3-Flutter",
+        caption:"an Islamic app that shows Azkar & by using API Determines prayer times And by location Determines qibla"
+
+  }, {
+    id: 3,
+    image: carweb,
+    title: "E-commerce car parts website",
+    github: "",
+    demo: "http://twbpart.com/",
+        caption:" Angular website work as a part of e-commerce system for car parts  "
+
+  },
+  {
+    id: 8,
+    image: crypto,
+    title: "Crypto Currency wallet",
+    github: "https://github.com/Ahmed0Ghaith/CryptoCurrency-Xamarin",
+    demo: "",
+        caption:"UI/UX Design and developing a Crypto Currency wallet"
+
+  },
+  {
+    id: 9,
+    image: news,
+    title: "News Feed App",
+    github: "https://github.com/Ahmed0Ghaith/News-feed-app-example",
+    demo: "",
+    caption:"News Feed App featch data from public api and present it"
   },
 ];
 
@@ -59,20 +102,21 @@ const portfolio = () => {
       <h5>My Recent Jobs</h5>
       <h2>Mobile & Web Portfolio</h2>
       <div className="container container_portfolio">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo,caption }) => {
           return (
             <article key={id} className="article_item">
               <div className="div_port-image">
-                <img src={image} alt="" />
+                <img className="imgheight" src={image} alt="" />
               </div>
               <h3>{title}</h3>
+              <small >{caption}</small>
               <div className="item-cta">
              { github!="">0&&
                <a href={github}  className="btn" target="_blank">
                   Github
                 </a>
                } 
-               <a
+          {   demo!="">0&&  <a
                   href={demo}
                   className="btn btn_primary"
                   target="_blank"
@@ -80,7 +124,8 @@ const portfolio = () => {
                 >
                   View
                 </a>
-              </div>
+                      }
+                                    </div>
             </article>
           );
         })}

@@ -1,9 +1,10 @@
 import React from "react";
 import "./testimonials.css";
-import Avat1 from "../../assets/avatar1.jpg";
-import Avat2 from "../../assets/avatar2.jpg";
-import Avat3 from "../../assets/avatar3.jpg";
-import Avat4 from "../../assets/avatar4.jpg";
+import Avat from "../../assets/avatarupwork.jpg";
+import saava from "../../assets/saudiava.png";
+import freelanceava from "../../assets/freelanceavatar.jpg";
+
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
@@ -12,28 +13,39 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    avatar: Avat1,
-    name: "Samuel Joseph",
+    avatar: Avat,
+    name: "UpWork Client",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animitempora maxime quae nobis, distinctio optio suscipit placeat autem delectus esse mollitia obcaecati eaque atque adipisci ratione dolorum, deserunt eligendi!",
+      "Ahmed is an exceptional programmer and a pleasure to work with. He was able to quickly identify and troubleshoot the issue with our application, providing efficient and effective solutions. His communication throughout the project was excellent, always keeping us informed and up to date on his progress. We appreciated his attention to detail and his ability to work collaboratively with our team. Overall, we highly recommend Ahmed for any programming or troubleshooting needs and look forward to working with him again in the future. Thank you!",
+  },
+{
+    avatar: freelanceava,
+    name: "Freelancer.com Client",
+    review:
+      "  I have many issue with my xamarin ios and ahmed help for solved it and he is helping me with another issue that we didn’t discuss it ! He is really helpful and friendly. I hope to work with you again.",
+  },
+  { avatar: saava,
+    name: "Ali ",
+    review:
+      "  I got a solution to my problem from brother Ahmed, and I got an explanation and many details to avoid such problemshe is very helpful. many thanks for you ",
   },
   {
-    avatar: Avat2,
-    name: "Samuel Joseph",
+    avatar: Avat,
+    name: "UpWork Client",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animitempora maxime quae nobis, distinctio optio suscipit placeat autem delectus esse mollitia obcaecati eaque atque adipisci ratione dolorum, deserunt eligendi!",
+      "Ahmed was excellent! He was patient and quickly understood the requirements of the project. He offered unique solutions and different ways to go about coding errors which worked perfectly. He implemented code fast and worked on a short deadline, completing everything before the due date. Overall, Ahmed was amazing and someone I'd definitely work with again! I recommend him!",
   },
   {
-    avatar: Avat3,
-    name: "Samuel Joseph",
+    avatar: Avat,
+    name: "UpWork Client",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animitempora maxime quae nobis, distinctio optio suscipit placeat autem delectus esse mollitia obcaecati eaque atque adipisci ratione dolorum, deserunt eligendi!",
+      "Excellent work done on time",
   },
   {
-    avatar: Avat4,
-    name: "Samuel Joseph",
+    avatar:Avat ,
+    name: "UpWork Client",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animitempora maxime quae nobis, distinctio optio suscipit placeat autem delectus esse mollitia obcaecati eaque atque adipisci ratione dolorum, deserunt eligendi!",
+      "very good work done on time",
   },
 ];
 
