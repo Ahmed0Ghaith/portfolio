@@ -1,8 +1,8 @@
 header {
-  height: 100vh;
+  height: 135vh;
   padding-top: 7rem;
   overflow: hidden;
-  margin: 0 4rem;
+  margin: 0 1rem;
 }
 
 .header__container {
@@ -52,7 +52,24 @@ header {
   overflow: hidden;
   padding: 0rem 1.5rem 0rem 1.5rem;
 }
+.main_img{
+   background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+}
+.mask{
+-webkit-mask-image: linear-gradient(black,transparent);
+mask-image: linear-gradient(black, transparent);
 
+}
+.my-img{
+margin-top: -7rem;
+}
 /* scroll */
 
 .scroll__down {
@@ -63,14 +80,12 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
+
 }
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 120vh;
   }
   .header__socials,
   .scroll__down {

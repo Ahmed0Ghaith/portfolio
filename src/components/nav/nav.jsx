@@ -1,7 +1,7 @@
 import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
-import { FaUserSecret } from "react-icons/fa";
+import { FaInfoCircle } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { BsTools } from "react-icons/bs";
 import { BiSolidContact } from "react-icons/bi";
@@ -23,7 +23,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <FaUserSecret />
+        <FaInfoCircle />
       </a>
       <a
         href="#exper"

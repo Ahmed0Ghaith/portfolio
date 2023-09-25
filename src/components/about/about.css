@@ -4,7 +4,20 @@
   gap: 15%;
   margin-bottom: 4rem;
 }
-
+.expriance-card{
+  display: grid;
+  grid-template-columns: 1fr;
+gap: 1rem;
+}
+.start-text{text-align: start !important;}
+.center_cap{
+  margin: 10px;
+  text-align: center;
+}
+.my2{
+  margin-top : 2rem  !important ;
+  margin-bottom: 2rem !important;
+}
 .about__me {
   margin-top: 10rem;
   width: 100%;

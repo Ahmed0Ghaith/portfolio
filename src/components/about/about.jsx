@@ -2,6 +2,8 @@ import React from "react";
 import "./about.css";
 import Me from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
+import { FaMobile,FaNodeJs,FaCode,FaFigma} from "react-icons/fa";
+
 
 
 const about = () => {
@@ -10,46 +12,69 @@ const about = () => {
       <h5>Get to know</h5>
 
       <h2>About Me</h2>
+  <p className=" container my2">
+        I am a talented and passionate developer ,
+         working on converting your idea into a clean high-performance real project , using clean code of more than one technology neither in Web nor Mobile and in consideration of the scalability, readability,SEO and maintainability .    </p> 
 
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={Me} alt="" />
+      <div className="container about__container">  
+       <div className="about__content"> 
+            <h4 className="center_cap">Certificates</h4>
+
+       <div className="expriance-card">
+          
+            <a href="https://www.freecodecamp.org/certification/ahmedghaith/foundational-c-sharp-with-microsoft"    target="_blank"
+        rel="noreferrer" className="about__card start-text">
+              <FaAward className="about__icon" />
+              <h5 >Foundational C# </h5>
+              <small>Issuing organization : Microsoft and FreeCodeCamp
+</small>
+            </a>{" "}
+            <a href="https://www.freecodecamp.org/certification/ahmedghaith/responsive-web-design"    target="_blank"
+        rel="noreferrer"className="about__card start-text">
+              <FaAward className="about__icon" />
+              <h5>Responsive Web Design</h5>
+              <small>Issuing organization : FreeCodeCamp
+</small>
+            </a>
+     
+           
           </div>
+        
+     
         </div>
+       <div className="about__content">
+            <h4 className="center_cap">Experiance</h4>
 
-        <div className="about__content">
-          <div className="about__cards">
+       <div className="about__cards">
+         
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Marketing</h5>
-              <small>6+ years Experience</small>
-            </article>
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Web Development</h5>
+              <FaNodeJs className="about__icon" />
+              <h5>Frontend </h5>
               <small>1 year Experience</small>
             </article>{" "}
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Mobile Development</h5>
-              <small>2+ years Experience</small>
+              <FaMobile className="about__icon" />
+              <h5>Mobile </h5>
+              <small>4+ years Experience</small>
             </article>
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>UI/UX Design</h5>
+              <FaCode className="about__icon" />
+              <h5>Backend </h5>
               <small>2+ years Experience</small>
             </article>
+              <article className="about__card">
+              <FaFigma className="about__icon" />
+              <h5>UI/UX Design</h5>
+              <small>1+ years Experience</small>
+            </article>
           </div>
-          <p>
-            I am a talented Marketer, UI/UX designer, React web developer, and a Flutter
-            developer. With a passion for blending aesthetics and functionality,
-            I create exceptional digital experiences.
-          </p>
-          <a href="#contact" className="btn btn_primary">
+        
+          <a href="#contact"  className="btn btn_primary my2">
             Lets Talk
           </a>
-        </div>
+        </div>    
+        
+      
       </div>
     </section>
   );

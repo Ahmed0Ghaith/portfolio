@@ -21,6 +21,7 @@
 .div_port-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  max-height: 300px;
 }
 
 .article_item h3 {
@@ -42,9 +43,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  #portfolio {
-    margin-top: 100rem;
-  }
+ /* #portfolio {
+    margin-top: 140rem;
+  }*/
   .container_portfolio {
     grid-template-columns: 1fr;
     gap: 1rem;

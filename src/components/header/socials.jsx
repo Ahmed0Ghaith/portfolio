@@ -1,34 +1,36 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { FaTwitterSquare } from "react-icons/fa";
-import { RiTiktokLine } from "react-icons/ri";
+
 import { VscGithubInverted } from "react-icons/vsc";
+import { BsYoutube } from "react-icons/bs";
+import { FaFreeCodeCamp } from "react-icons/fa";
+
 
 const socials = () => {
   return (
     <div className="header__socials">
       <a
-        href="https://www.linkedin.com/in/samuel-joseph-samstickkz/"
+        href="https://www.linkedin.com/in/ahmed-ghaith/"
         target="_blank"
         rel="noreferrer"
       >
         <BsLinkedin />
       </a>
       <a
-        href="https://twitter.com/Obong_samjoe"
+        href="https://www.freecodecamp.org/ahmedghaith"
         target="_blank"
         rel="noreferrer"
       >
-        <FaTwitterSquare />
+        <FaFreeCodeCamp />
       </a>{" "}
       <a
-        href="https://www.tiktok.com/@obong_samjoe"
+        href="https://www.youtube.com/@AhmedGhaith"
         target="_blank"
         rel="noreferrer"
       >
-        <RiTiktokLine />
+        <BsYoutube />
       </a>
-      <a href="https://github.com/samstickkz" target="_blank" rel="noreferrer">
+      <a href="https://github.com/Ahmed0Ghaith" target="_blank" rel="noreferrer">
         <VscGithubInverted />
       </a>
     </div>

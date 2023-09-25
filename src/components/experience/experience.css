@@ -28,7 +28,7 @@
 .expe_content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 
 .expe_details {
@@ -42,9 +42,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-  #exper {
+  /*#exper {
     padding-top: 89px;
-  }
+  }*/
 
   .experience_container {
     grid-template-columns: 1fr;
@@ -61,9 +61,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  #exper {
-    padding-top: 15rem;
-  }
+ /* #exper {
+    padding-top: 32rem;
+  }*/
   .experience_container {
     margin-top: 5rem;
     gap: 1rem;
