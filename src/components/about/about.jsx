@@ -45,7 +45,7 @@ const about = () => {
       <div className="about__cards">
   <article className="about__card">
     <FaMobile className="about__icon" />
-    <h5>Cross-Platform</h5>
+    <h5>Cross-Platform (Flutter & MAUI)</h5>
     <small>6+ Years</small>
   </article>
 
@@ -55,11 +55,7 @@ const about = () => {
     <small>4+ Years</small>
   </article>
 
-  <article className="about__card">
-    <FaNodeJs className="about__icon" />
-    <h5>Flutter & MAUI</h5>
-    <small>Senior Level</small>
-  </article>
+  
 
   <article className="about__card">
     <FaFigma className="about__icon" />
