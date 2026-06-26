@@ -11,10 +11,11 @@ const about = () => {
       <h5>Get to know</h5>
 
       <h2>About Me</h2>
-  <p className=" container my2">
-        I am a talented and passionate developer ,
-         working on converting your idea into a clean high-performance real project , using clean code of more than one technology neither  Web nor Mobile and in consideration of the scalability, readability,SEO and maintainability .    </p> 
-
+ <p className="container my2">
+  I'm a Senior Cross-Platform Developer with 6+ years of experience building high-performance mobile and desktop applications using .NET MAUI, Flutter, Xamarin, and ASP.NET Core.
+  <br /><br />
+  I specialize in modernizing legacy applications, designing scalable architectures, and delivering clean, maintainable code. I enjoy solving complex technical challenges, optimizing performance, and creating intuitive user experiences for enterprise and commercial products.
+</p>
       <div className="container about__container">  
        <div className="about__content"> 
             <h4 className="center_cap">Certificates</h4>
@@ -41,37 +42,31 @@ const about = () => {
         
      
         </div>
-       <div className="about__content">
-            <h4 className="center_cap">Experiance</h4>
+      <div className="about__cards">
+  <article className="about__card">
+    <FaMobile className="about__icon" />
+    <h5>Cross-Platform</h5>
+    <small>6+ Years</small>
+  </article>
 
-       <div className="about__cards">
-         
-            <article className="about__card">
-              <FaNodeJs className="about__icon" />
-              <h5>Frontend </h5>
-              <small>1 year Experience</small>
-            </article>{" "}
-            <article className="about__card">
-              <FaMobile className="about__icon" />
-              <h5>Mobile </h5>
-              <small>4+ years Experience</small>
-            </article>
-            <article className="about__card">
-              <FaCode className="about__icon" />
-              <h5>Backend </h5>
-              <small>2+ years Experience</small>
-            </article>
-              <article className="about__card">
-              <FaFigma className="about__icon" />
-              <h5>UI/UX Design</h5>
-              <small>1+ years Experience</small>
-            </article>
-          </div>
-        
-          <a href="#contact"  className="btn btn_primary my2">
-            Lets Talk
-          </a>
-        </div>    
+  <article className="about__card">
+    <FaCode className="about__icon" />
+    <h5>.NET & APIs</h5>
+    <small>4+ Years</small>
+  </article>
+
+  <article className="about__card">
+    <FaNodeJs className="about__icon" />
+    <h5>Flutter & MAUI</h5>
+    <small>Senior Level</small>
+  </article>
+
+  <article className="about__card">
+    <FaFigma className="about__icon" />
+    <h5>UI/UX</h5>
+    <small>Performance & Polish</small>
+  </article>
+</div>  
         
       
       </div>

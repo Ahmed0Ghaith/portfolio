@@ -41,9 +41,9 @@ function timeout() {
           <article className="contact_option">
             <BiMailSend className="contact_option_icon" />
             <h4>Email</h4>
-            <h5>contact@ahmedghaith.com</h5>
+            <h5>devghaith@outlook.com</h5>
             <a
-              href="mailto:contact@ahmedghaith.com"
+              href="mailto:devghaith@outlook.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -54,9 +54,9 @@ function timeout() {
           <article className="contact_option">
             <BsWhatsapp className="contact_option_icon" />
             <h4>Whatsapp</h4>
-            <h5>+201032821611</h5>
+            <h5>+201159392938</h5>
             <a
-              href="https://api.whatsapp.com/?phone?=+201032821611"
+              href="https://api.whatsapp.com/?phone?=+201159392938"
               target="_blank"
               rel="noreferrer"
             >
