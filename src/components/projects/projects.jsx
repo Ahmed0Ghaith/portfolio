@@ -1,9 +1,10 @@
 import React from "react";
 import "./projects.css";
-import pos from "../../assets/POS.png";
+import pos from "../../assets/CompuPOS.png";
 import hr from "../../assets/hr.png";
-import doctor from "../../assets/doctor.jpg";
+import doctor from "../../assets/qme.png";
 import fixer from "../../assets/fixer.png";
+
 
 const projects = [
   {
