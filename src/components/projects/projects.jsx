@@ -1,8 +1,8 @@
 import React from "react";
 import "./projects.css";
 import pos from "../../assets/CompuPOS.png";
-import hr from "../../assets/hr.png";
-import doctor from "../../assets/qme.png";
+import qme from "../../assets/qme.png";
+import doctor from "../../assets/doctor.jpg";
 import fixer from "../../assets/fixer.png";
 
 
@@ -27,7 +27,7 @@ const projects = [
   },
   {
     id: 3,
-    image: hr,
+    image: qme,
     title: "QME Clinic Booking",
     company: "Daldart",
     description:
