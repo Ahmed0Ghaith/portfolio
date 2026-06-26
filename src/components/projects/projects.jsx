@@ -1,8 +1,8 @@
 import React from "react";
 import "./projects.css";
 import pos from "../../assets/POS.png";
-import hr from "../../assets/HR.png";
-import doctor from "../../assets/doctor.png";
+import hr from "../../assets/hr.png";
+import doctor from "../../assets/doctor.jpg";
 import fixer from "../../assets/fixer.png";
 
 const projects = [

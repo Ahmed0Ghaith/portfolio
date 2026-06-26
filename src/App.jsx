@@ -8,6 +8,7 @@ import Portfolio from "./components/portfolio/portfolio";
 import Testimonials from "./components/testimonials/testimonials";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
+import Projects from "./components/projects/projects";
 import Swal from "sweetalert2";
 
 import ReactGA from "react-ga";
