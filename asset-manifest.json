@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4fdbb1ec.css",
-    "main.js": "/portfolio/static/js/main.85ff813f.js",
+    "main.js": "/portfolio/static/js/main.5554aefb.js",
     "static/media/AhmedGhaith.jpg": "/portfolio/static/media/AhmedGhaith.ab000c57dd3747decace.jpg",
     "static/media/khushoo3.png": "/portfolio/static/media/khushoo3.9dafe7a9ac4e33c19f8f.png",
     "static/media/cartp.png": "/portfolio/static/media/cartp.6075c90ee1193aa87520.png",
@@ -14,16 +14,16 @@
     "static/media/POS.png": "/portfolio/static/media/POS.d38e65e8fb6127694d25.png",
     "static/media/saudiava.png": "/portfolio/static/media/saudiava.d671e71b4523d5372527.png",
     "static/media/carweb.png": "/portfolio/static/media/carweb.0c1c6e9cf4135445653d.png",
+    "static/media/CompuPOS.png": "/portfolio/static/media/CompuPOS.bfc959c4fc3b4865adcd.png",
     "static/media/fixer.png": "/portfolio/static/media/fixer.c374f1f2c438a7c0edcb.png",
-    "static/media/doctor.jpg": "/portfolio/static/media/doctor.4586d81d5d4a0bad71f2.jpg",
     "static/media/avatarupwork.jpg": "/portfolio/static/media/avatarupwork.fd48d346c751d4eebf50.jpg",
     "static/media/freelanceavatar.jpg": "/portfolio/static/media/freelanceavatar.c52382ccd463ad7fcd86.jpg",
     "index.html": "/portfolio/index.html",
     "main.4fdbb1ec.css.map": "/portfolio/static/css/main.4fdbb1ec.css.map",
-    "main.85ff813f.js.map": "/portfolio/static/js/main.85ff813f.js.map"
+    "main.5554aefb.js.map": "/portfolio/static/js/main.5554aefb.js.map"
   },
   "entrypoints": [
     "static/css/main.4fdbb1ec.css",
-    "static/js/main.85ff813f.js"
+    "static/js/main.5554aefb.js"
   ]
 }
